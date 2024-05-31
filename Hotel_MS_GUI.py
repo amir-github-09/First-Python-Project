@@ -98,10 +98,10 @@ class HMS(ctk.CTk, tk.Tk):
     def user(self,event=None):
         if self.user_entry.get() == "hotel0039" and self.user_password_entry.get() == "ourhotel123":
             self.menu()
-        if self.user_entry.get() != "mr0039":
+        if self.user_entry.get() != "hotel0039":
             self.user_entry.delete("0","end")
             self.user_entry.configure(placeholder_text="!Invalid user name")
-        if self.user_password_entry.get() != "m.rizwan":
+        if self.user_password_entry.get() != "ourhotel123":
             self.user_password_entry.delete("0","end")
             self.user_password_entry.configure(placeholder_text="!Invalid password")
 
