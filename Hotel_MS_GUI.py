@@ -96,7 +96,7 @@ class HMS(ctk.CTk, tk.Tk):
         password_button.pack(padx=55,pady=15,anchor="center")
 
     def user(self,event=None):
-        if self.user_entry.get() == "mr0039" and self.user_password_entry.get() == "m.rizwan":
+        if self.user_entry.get() == "hotel0039" and self.user_password_entry.get() == "ourhotel123":
             self.menu()
         if self.user_entry.get() != "mr0039":
             self.user_entry.delete("0","end")
