@@ -39,18 +39,17 @@ To get started with this project, follow these steps:
 
 1.  **Clone the repository**:
     ```bash
-    git clone [https://github.com/your-username/hotel-management-system.git](https://github.com/your-username/hotel-management-system.git)
+    git clone https://github.com/amir-github-09/First-Python-Project.git
     ```
-    (Remember to replace `your-username` with your actual GitHub username.)
 
 2.  **Navigate to the project directory**:
     ```bash
-    cd hotel-management-system
+    cd First-Python-Project
     ```
 
 3.  **Run the application**:
     ```bash
-    python main.py  # Or whatever your main script is named (e.g., hotel_app.py)
+    python Hotel_MS_GUI.py
     ```
 
 ---
